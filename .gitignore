@@ -1,0 +1,20 @@
+# --- Data: never commit the raw Kaggle download or derived parquet files ---
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# --- Trained model artifacts ---
+models/*
+!models/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
